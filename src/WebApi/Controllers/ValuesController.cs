@@ -18,7 +18,7 @@ namespace WebApi.Controllers
     [HttpGet("{id}")]
     public ActionResult<string> Get(int id)
     {
-      return "get_value [Error Here!]";
+      return "get_value";
     }
 
     // POST api/values
